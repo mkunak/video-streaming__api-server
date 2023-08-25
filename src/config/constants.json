@@ -1,0 +1,10 @@
+{
+  "development": {
+    "dbUserName": "",
+    "dbPassword": "",
+    "appName": "video-streaming",
+    "appDescription": "The application is created to make me happy and advanced fullstack developer.",
+    "port": "9000",
+    "dbUri": "../assets/metadata.json"
+  }
+}
