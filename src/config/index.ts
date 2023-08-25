@@ -8,7 +8,7 @@ dotenv.config();
 
 const environment = (process.env.NODE_ENV as EEnv) || EEnv.DEVELOPMENT;
 const clientPort = process.env.CLIENT_PORT || _c_.development.port;
-const serverPort = process.env.SERVER_PORT || _c_.development.port;
+const serverPort = process.env.API_SERVER_PORT || _c_.development.port;
 
 const dbUserName = process.env.DB_USER_NAME || _c_.development.dbUserName;
 const dbPassword = process.env.DB_PASSWORD || _c_.development.dbPassword;

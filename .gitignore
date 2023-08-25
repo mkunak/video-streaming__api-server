@@ -29,3 +29,14 @@ tmp
 # Visual Studio Code
 .vscode
 .history
+
+# Screenshots files
+src/assets/screenshots/*.png
+src/assets/screenshots/*.jpg
+src/assets/screenshots/*.jpeg
+
+# Screensavers files
+src/assets/screensavers/*.png
+!src/assets/screensavers/basic_screensaver.png
+src/assets/screensavers/*.jpg
+src/assets/screensavers/*.jpeg
