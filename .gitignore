@@ -25,3 +25,7 @@ tmp
 .rvmrc
 .trashes
 *~
+
+# Visual Studio Code
+.vscode
+.history
