@@ -31,12 +31,14 @@ tmp
 .history
 
 # Screenshots files
-src/assets/screenshots/*.png
-src/assets/screenshots/*.jpg
-src/assets/screenshots/*.jpeg
+src/assets/screenshots/*
+!src/assets/screenshots/.gitkeep
 
 # Screensavers files
-src/assets/screensavers/*.png
+src/assets/screensavers/*
+!src/assets/screensavers/.gitkeep
 !src/assets/screensavers/basic_screensaver.png
-src/assets/screensavers/*.jpg
-src/assets/screensavers/*.jpeg
+
+# Video files
+src/assets/items/*
+!src/assets/items/.gitkeep
